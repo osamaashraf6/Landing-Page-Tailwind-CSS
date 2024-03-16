@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Start common styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 83%;
+  margin: 0 auto;
+}
+.container-2 {
+  width: 73%;
+  margin: 0 auto;
+}
+.container-3 {
+  width: 74%;
+  margin: 0 auto;
+}
+/* Start fonts family */
+.plus-jakar {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.shadows-into {
+  font-family: "Shadows Into Light", cursive;
+}
+
+/*  */
+.sm-block > li {
+  display: block;
+}
+/*  */
+.bg-image-video {
+  background-image: url("/public/assets/lines.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 93% 219px;
+}
+
+/* Start effects */
+.bordergradinet:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-image-source: linear-gradient(180deg, #ab96f8 0%, #ff99d0 100%);
+  border-image-slice: 1;
+  border-image-width: 10px;
+  border-image-outset: 0;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.glowing:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 60%;
+  border-image-source: linear-gradient(
+    90deg,
+    #44ff9a -0.55%,
+    #44b0ff 22.86%,
+    #8b44ff 48.36%,
+    #ff6644 73.33%,
+    #ebff70 99.34%
+  );
+  border-image-slice: 1;
+  border-image-width: 10px;
+  border-image-outset: 0;
+  filter: blur(20px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.bg-grad {
+  background: linear-gradient(
+    90deg,
+    #f0fbb9 0%,
+    #fbb3a0 29.01%,
+    #bfa2fd 53.16%,
+    #a4d0fc 74.87%,
+    #9fe9e2 87.59%,
+    #9fface 100%
+  );
+}
+/* Start media query */
+@media screen and (max-width: 1024px) {
+  .btn-toggle:checked ~ .curtain-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 73px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    padding: 39px;
+  }
+
+  .btn-toggle:checked ~ .linkss {
+    gap: 24px;
+  }
+  .btn-toggle:checked ~ .linkss .user {
+    flex-direction: column;
+    align-self: normal;
+  }
+  .btn-toggle:checked ~ .linkss .user > .log {
+    margin-bottom: 42px;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+  .btn-toggle:checked ~ .linkss .user > span {
+    top: 104%;
+    left: 39%;
+  }
+
+  .btn-toggle:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+
+  .bg-image-video {
+    background-position: 1px 100%;
+  }
+}
