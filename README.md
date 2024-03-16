@@ -1,11 +1,9 @@
 <a name="readme-top"></a>
 
-
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Like Notion\] ](#-Like_Notion-)
+- [📖 \[Landing Page\] ](#-Like_Notion-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -15,7 +13,7 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-  - [👥 Authors :  ](#-authors---)
+  - [👥 Authors : ](#-authors---)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -24,52 +22,36 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Like Notion App <a name="about-project"></a>
+# 📖 Landing Page <a name="about-project"></a>
 
-- Like_Notion App! This open-source project, built with HTML, CSS, and JavaScript, offers a sleek and customizable user interface inspired by Notion. Its modular structure, responsive design, and customization options make it an ideal productivity tool. Features include intuitive task management, rich text editing, and collaborative capabilities. 👌💯
-
-
-| Screenshot for the demo| 
-| --- |
-|![image](https://github.com/osamaashraf6/Like-Notion/assets/83360636/023b1690-273f-43c3-8438-430d72e691c5) |
-
-
+- Welcome to the Tailwind CSS Landing Page Templates repository! This project aims to provide a curated collection of sleek, responsive, and customizable landing page templates built with Tailwind CSS. Tailwind CSS is a utility-first CSS framework that offers a unique approach to styling web applications. 👌💯
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 
 <details>
   <summary>Client</summary>
   <ul>
    <li>HTML</li>
     <li>CSS</li>
-    <li>JavaScript</li>
+    <li>Tailwind css</li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-
-- [x] Deploy the App using GitHub Pages to let the users access it💯😊
-- [x] Apply ES6 Script for best best practice ⤵👌💯
-- [x] Follow HTML, CSS, and JS best practices 😊
-
-
-
+- [x] Apply Tailwind css for the styling ⤵👌💯
+- [x] Follow HTML, CSS best practices 😊
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚀 Live Demo
 
-- Click [Here](https://osamaashraf6.github.io/Like-Notion/) ⤵️😊 to see the live demo of the App Like_Notion😃💯
-- This is the loom video for the presentation of the project, click [here](https://www.loom.com/share/048b274a712a4e2e9be7947dbb09b207?sid=336888f8-435a-4909-ae63-11903fba019c) ⤵️ to see the presentation😃👌💯
+- Click [Here]() ⤵️😊 to see the live demo of the App Like_Notion😃💯
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
 
 To get a local copy up and running, follow these steps.
 
@@ -77,24 +59,23 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-
 ```sh
 
-  git clone https://github.com/osamaashraf6/Like-Notion.git
-    cd Like-Notion
-```
+  git clone https://github.com/osamaashraf6/Landing-Page-Tailwind-CSS.git
 
+  cd Landing-Page-Tailwind-CSS
+```
 
 ### Install
 
 Install this project with:
+
 ```sh
-  cd Like-Notion
+
   npm install
 ```
 
@@ -107,20 +88,17 @@ To run the project, execute the following command:
   - Open the project in the browser using live server
 ```
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors :  <a name="authors"></a>
-
+## 👥 Authors : <a name="authors"></a>
 
 👤 **Osama Ashraf**
+
 - GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
 - LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,15 +106,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-
-
-- [x] Test the app using jest.⤵️
 - [x] Use the webpack bundler to setup the project.😃
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,21 +126,18 @@ Feel free to check the [issues page](../../issues/).
 
 - If you like this project you can give me a star 😊 just to prove my app that it is useful for everyone and the users can benefit from it 💯.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
 I would like to thank all the contributors and code reviewers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/osamaashraf6/Like-Notion-#MIT-1-ov-file) licensed.
+This project is [MIT](https://github.com/osamaashraf6/Landing-Page-Tailwind-CSS#MIT-1-ov-file) licensed.
