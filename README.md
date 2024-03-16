@@ -26,6 +26,10 @@
 
 - Welcome to the Tailwind CSS Landing Page Templates repository! This project aims to provide a curated collection of sleek, responsive, and customizable landing page templates built with Tailwind CSS. Tailwind CSS is a utility-first CSS framework that offers a unique approach to styling web applications. 👌💯
 
+
+![image](https://github.com/osamaashraf6/Landing-Page-Tailwind-CSS/assets/83360636/54cf952c-f29d-4e2b-ae3e-72cd6282fbd4)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
